@@ -13,7 +13,18 @@
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-
-
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-tiff -->
+        <dependency>
+            <groupId>com.twelvemonkeys.imageio</groupId>
+            <artifactId>imageio-tiff</artifactId>
+            <version>3.11.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-jpeg -->
+        <dependency>
+            <groupId>com.twelvemonkeys.imageio</groupId>
+            <artifactId>imageio-jpeg</artifactId>
+            <version>3.11.0</version>
+        </dependency>
+    </dependencies>
 </project>

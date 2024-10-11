@@ -1,36 +1,45 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
 package github.x810we;
 
-//import com.twelvemonkeys.imageio.plugins.tiff.BigTIFFImageWriterSpi;
-
-
-
-
-import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import javax.imageio.ImageIO;
 
-import static java.awt.Color.blue;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    public Main() {
+    }
+
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
 
-    // Gson gson = new Gson ();
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+        for(int i = 1; i <= 5; ++i) {
             System.out.println("i = " + i);
         }
-        try {
-            BufferedImage originalImage = ImageIO.read(new File("test.tif"));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        int z1;
+        z1 = Rechnen(1,2,3,4,5,6,7,8,9,10);
+        System.out.println("Rechen = " + z1);
+
+
+/*        try {
+            BufferedImage var4 = ImageIO.read(new File("test.tif"));
+        } catch (IOException var2) {
+            throw new RuntimeException(var2);
+        } */
+    }
+    public static int Rechnen(int... x) {
+        int z1 = 0;
+
+        for (int i=0;i<x.length;i++) {
+            z1+= x[i];
         }
+
+        return z1;
+
+
     }
 }

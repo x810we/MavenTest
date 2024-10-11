@@ -1,26 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="maventest:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d4ef667-3568-401d-8e77-2d07c73514d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/x810we/Main.java" afterDir="false" />
+    <list default="true" id="4d4ef667-3568-401d-8e77-2d07c73514d1" name="Changes" comment="My first commit 13.09.2024">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/maventest_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/x810we/FrequencySeparation16Bit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/x810we/MixedImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/x810we/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/x810we/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;x810we&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/x810we/MavenTest.git&quot;,
+    &quot;accountId&quot;: &quot;760e0001-6246-4e83-9684-e8dab4c0f367&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -30,36 +53,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "Maven.maventest [clean].executor": "Run",
-    "Maven.maventest [compile].executor": "Run",
-    "Maven.maventest [deploy].executor": "Run",
-    "Maven.maventest [install].executor": "Run",
-    "Maven.maventest [org.apache.maven.plugins:maven-jar-plugin:3.4.1:jar].executor": "Run",
-    "Maven.maventest [package].executor": "Run",
-    "Maven.maventest [site].executor": "Run",
-    "Maven.maventest [test].executor": "Run",
-    "Maven.maventest [validate].executor": "Run",
-    "Maven.maventest [verify].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/x810we/IdeaProjects/MavenTest/src/main/java/github/x810we/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FrequencySeparation16Bit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MixedImage.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.maventest [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [org.apache.maven.plugins:maven-jar-plugin:3.4.1:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [site].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.maventest [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/x810we/IdeaProjects/MavenTest/src/main/java/github/x810we/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.x810we.Main" />
@@ -99,8 +124,22 @@
       <workItem from="1726136129098" duration="3974000" />
       <workItem from="1726166906290" duration="4201000" />
       <workItem from="1726172742575" duration="325000" />
-      <workItem from="1726207544217" duration="1147000" />
+      <workItem from="1726207544217" duration="1502000" />
+      <workItem from="1726210621115" duration="6403000" />
+      <workItem from="1726219401488" duration="678000" />
+      <workItem from="1726313309521" duration="2156000" />
+      <workItem from="1726906762761" duration="4072000" />
+      <workItem from="1728627927666" duration="41000" />
     </task>
+    <task id="LOCAL-00001" summary="My first commit 13.09.2024">
+      <option name="closed" value="true" />
+      <created>1726210006634</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726210006634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,18 +156,22 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My first commit 13.09.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="My first commit 13.09.2024" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/github/x810we/Main.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="3" />
+          <url>jar://$PROJECT_DIR$/target/maventest-1.0-SNAPSHOT.jar!/github/x810we/Main.class</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/github/x810we/Main.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
+          <line>23</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

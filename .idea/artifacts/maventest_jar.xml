@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="maventest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/maventest_jar</output-path>
+    <root id="archive" name="maventest.jar">
+      <element id="module-output" name="maventest" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/target/maventest-1.0-SNAPSHOT.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
